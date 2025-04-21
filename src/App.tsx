@@ -1,5 +1,4 @@
 import { Card, Col, Flex, Layout, Pagination, Row, Spin } from "antd";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import productService from "./service/product.service";
 import { getErrorMessage } from "./utils/getErrorMessage";
